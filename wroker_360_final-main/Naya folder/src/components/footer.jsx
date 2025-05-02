@@ -21,9 +21,9 @@ function Footer(){
                    <div className="cmp3">
                    <ul className='scm'>
                     <li><h2>Connect with Us</h2></li>
-                    <li><Link to="https://www.linkedin.com/in/md-rizwan-3b3141255/"><img src="" alt="" />Instagram </Link> </li>
-                    <li><Link to="https://www.linkedin.com/in/md-rizwan-3b3141255/"><img src="" alt="" />Linkedin </Link> </li>
-                    <li> <Link to ="mdrizwan6386@gmail.com"><img src="" alt="" />Email</Link> </li>
+                    <li><Link to="https://www.linkedin.com/in/akhil-vikram-singh-91b1a7259/"><img src="" alt="" />Instagram </Link> </li>
+                    <li><Link to="https://www.linkedin.com/in/akhil-vikram-singh-91b1a7259/"><img src="" alt="" />Linkedin </Link> </li>
+                    <li> <Link to ="akhilvikramsingh@gmail.com"><img src="" alt="" />Email</Link> </li>
 
                    </ul>
 
