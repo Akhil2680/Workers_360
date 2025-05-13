@@ -15,7 +15,7 @@ function Signup() {
 
     e.preventDefault();
 
-    const res = await fetch("http://localhost:3500/clreg", {
+    const res = await fetch("https://workers-360-1.onrender.com/clreg", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password, location }),

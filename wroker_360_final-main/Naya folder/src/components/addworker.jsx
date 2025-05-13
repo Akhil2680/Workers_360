@@ -33,7 +33,7 @@ function AddWorker() {
     if (picture) formData.append("picture", picture);
 
     try {
-      const res = await fetch("http://localhost:3500/wkreg", {
+      const res = await fetch("https://workers-360-1.onrender.com/wkreg", {
         method: "POST",
         headers: {
           Authorization: `bearer ${token}`, 

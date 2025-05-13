@@ -8,7 +8,7 @@ function Hireworker() {
   const getWorker = async () => {
     const token = localStorage.getItem("token"); // Retrieve the token from localStorage
 
-    let response = await fetch("http://localhost:3500/worklist" ,{
+    let response = await fetch("https://workers-360-1.onrender.com/worklist" ,{
       method:"GET",
       headers:{
         Authorization:`bearer ${token}`
@@ -46,7 +46,7 @@ function Hireworker() {
       return;
     }
 
-    let response = await fetch(`http://localhost:3500/search/${key}`, {
+    let response = await fetch(`https://workers-360-1.onrender.com/search/${key}`, {
       method: "GET",
       headers: {
         Authorization: `bearer ${token}`,
@@ -82,7 +82,7 @@ function Hireworker() {
         {/* Image on the left */}
         <div style={{ marginRight: "20px" }}>
           <img
-            src={`http://localhost:3500/uploads/${item.picture}`}
+            src={`https://workers-360-1.onrender.com/uploads/${item.picture}`}
             alt={`${item.name}'s profile`}
             style={{ width: "180px", height: "300px", borderRadius: "5px" }}
           />
